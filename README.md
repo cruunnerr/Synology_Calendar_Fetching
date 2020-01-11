@@ -11,6 +11,9 @@ Befehl lautet dann:
 wget --user=user --password="passwort" https://server_url:PORT/caldav/USER/KOPIERTER_TEIL?export && cp KOPIERTER_TEIL?export ics_name.ics && rm KOPIERTER_TEIL?export
 
 
+# Wichtig: Passwort muss in Anführungszeichen stehen, wenn Sonderzeichen benutzt werden!
+
+
 
 Das ganze auf einem Webserver via bash-skript und crontab (als sudo) regelmäßig ausführen.
 
