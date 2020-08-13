@@ -8,7 +8,7 @@ HowTo fetch *.ics File from WebCal
 
 Befehl lautet dann:
 
-wget --user=user --password="passwort" https://server_url:PORT/caldav/USER/KOPIERTER_TEIL?export && cp KOPIERTER_TEIL?export ics_name.ics && rm KOPIERTER_TEIL?export
+wget --user=user --password="passwort" https://server_url:PORT/caldav/USER/KOPIERTER_TEIL?export && mv KOPIERTER_TEIL?export ics_name.ics
 
 
 # Wichtig: Passwort muss in Anführungszeichen stehen, wenn Sonderzeichen benutzt werden!
